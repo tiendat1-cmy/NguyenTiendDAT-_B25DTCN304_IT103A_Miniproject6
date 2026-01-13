@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F0F9FF;
+}
+header {
+    text-align: center;
+}
+header h1 {
+    background-color:#CCFBF1 ;
+    color:#145E75;
+}
+header span {
+    background-color: #E0F2FE;
+    display: block;
+    line-height: 1.6;
+}
+header a {
+    text-decoration: none;
+    color:#0284C7;
+    font-size: 17px;
+    font-weight: bold;
+}
+.main {
+    text-align: center;
+}
+.main h2{
+    color:#145E75;
+}
+.mot {
+    background-color: white;
+}
+.hai {
+    background-color: white;
+}
+.hai li:hover{
+   color: aliceblue;
+    background-color:cornflowerblue; 
+}
+footer {
+    background-color: #0E766E;
+    color: white;
+    text-align: center;
+}

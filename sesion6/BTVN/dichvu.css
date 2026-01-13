@@ -1,0 +1,36 @@
+body {
+    background-color:#F0F9FF ;
+}
+#D1 {
+    background-color: #CCFBF1;
+    text-align: center;
+    color:#0F766E ;
+}
+#D2 {
+    text-align: center;
+    
+    font-weight: bold;
+    background-color:#E0F2FE ;
+
+}
+a {
+    text-decoration: none;
+}
+#D2 :hover {
+    color: white;
+    background-color: cornflowerblue;
+}
+Th {
+    background-color:#BAE6FD ;
+}
+tr:hover {
+    background-color: #70a6ed;
+}
+table {
+    width: 100%;
+}
+#D3 {
+    color: white;
+    background-color: #0F766E;
+    text-align: center;
+}
