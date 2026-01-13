@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #card-container {
+        max-width: 800px;
+    padding: 20px;
+    margin: auto;
+}
+
+
+.hi{
+    background-color: #e3f2f9;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+/* card + card: tạo khoảng cách giữa các card */
+.hi + .hi {
+    margin-top: 20px;
+}
+
+/* style chữ */
+.hi h3 {
+    margin: 0 0 10px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.hi p {
+    margin: 0;
+    font-size: 26px;
+}
+
+/* hover đổi màu nền */
+.hi:hover {
+    background-color: #c7e9f9;
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
+    <div id="card-container">
+    <div class="hi">
+        <h3><strong>SP1</strong></h3>
+        <p>Giá: 100.000đ</p>
+    </div>
+    <div class="hi">
+        <h3><strong>SP2</strong></h3>
+        <p>Giá: 200.000đ</p>
+    </div>
+    <div class="hi">
+        <h3><strong>SP3</strong></h3>
+        <p>Giá: 300.000đ</p>
+    </div>
+    </div>
+</body>
+</html>

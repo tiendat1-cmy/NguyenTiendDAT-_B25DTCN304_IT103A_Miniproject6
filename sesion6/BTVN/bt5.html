@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       #card-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+    background-color: #eef3f6;
+    border-radius: 25px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    font-size: 40px;
+    background-color: #f6e27a;
+    padding: 30px;
+    border-radius: 20px;
+}
+li + li {
+    margin-top: 20px;
+}
+li:hover {
+    background-color: #e5f2f7;
+    cursor: pointer;
+}
+
+    </style>
+</head>
+<body>
+    <div id="card-container">
+        <ul class="hi">
+         <li data-sale="true">Sản phẩm A</li>
+         <li>Sản phẩm B</li>
+         <li data-sale="true">Sản phẩm C</li>
+        </ul>
+    </div>
+</body>
+</html>

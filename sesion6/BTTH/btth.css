@@ -1,0 +1,50 @@
+ body {
+            font-family: cursive;
+            background:#fff7ed;
+         }
+        header h1 {
+            background-color:  #fde68a;
+            text-align: center;
+            color: #92400e;
+         }
+        header span {
+            background-color:  #fed7aa;
+            text-align: center;
+            display: block;
+        }
+        header a{
+            color: #78350f;
+            font-size: 17px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        header a:hover {
+            background-color:  red;
+        }
+        .main {
+            text-align: center;
+        }
+        .main h2 {
+            color: #92400e;
+        }
+        .mot {
+            background-color: white;
+            text-align: left;
+        }
+        .hai {
+            background-color: white;
+            text-align: left;
+        }
+        .hai li:hover{
+            background-color:#78350f ;
+            color:  yellow;
+        }
+        .ba {
+            background-color: white;
+            text-align: left;
+        }
+        footer {
+            background-color: #78350f;
+            color: white;
+            text-align: center;
+        }
